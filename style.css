@@ -73,7 +73,7 @@ hid {
     width: 60%;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
   .tran {
     height: 60%;
     width: 60%;
