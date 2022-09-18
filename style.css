@@ -67,3 +67,15 @@ hid {
   background-color: rgb(14, 89, 14);
   transition: 0.5s;
 }
+@media screen and (max-width: 445px) {
+  .tran {
+    height: 60%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .tran {
+    height: 60%;
+    width: 60%;
+  }
+}
