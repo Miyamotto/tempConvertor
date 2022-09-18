@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="tran">
+        <h1 class="title">Temperature convertor</h1>
+        <h4 class="subTitle">Please enter a number</h4>
+        <input type="" id="num" /> <br />
+        <div class="cel">
+          <label for="celsius">Celsius</label>
+          <input type="radio" id="celsius" /> <br />
+        </div>
+        <div class="far">
+          <label for="fahrenheit">Fahrenheit</label>
+          <input type="radio" id="fahrenheit" /> <br />
+        </div>
+
+        <p id="hid1">
+          Please pick <span class="red">ONLY ONE</span> of the two options
+        </p>
+        <p id="hid2">
+          Please pick <span class="red">AT LEAST ONE</span> of the two options
+        </p>
+        <p id="hid"></p>
+        <button id="submit" onclick="grad()">Submit</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
