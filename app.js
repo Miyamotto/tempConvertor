@@ -18,6 +18,7 @@ function grad() {
     te.style.display = "none";
   } else if (cel.checked) {
     res.innerHTML = Number(((num - 32) * 5) / 9) + "°";
+    res.style.color = "#C50404";
     disp.style.display = "none";
     te.style.display = "none";
   } else {
