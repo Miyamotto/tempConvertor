@@ -21,8 +21,8 @@
   text-align: center;
   background-color: blueviolet;
   border-radius: 5px;
-  height: 45%;
-  width: 45%;
+  height: 22rem;
+  width: 28rem;
 }
 .cel {
   padding: 0.5rem;
@@ -67,15 +67,33 @@ hid {
   background-color: rgb(14, 89, 14);
   transition: 0.5s;
 }
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 453px) {
   .tran {
-    height: 60%;
-    width: 60%;
+    height: 18rem;
+    width: 18rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 0.8rem;
+  }
+  #submit {
+    font-size: 0.8rem;
   }
 }
-@media screen and (min-width: 780px) {
+@media screen and (max-width: 295px) {
   .tran {
-    height: 60%;
-    width: 60%;
+    height: 15rem;
+    width: 15rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .content {
+    font-size: 0.5rem;
+  }
+  #submit {
+    font-size: 0.5rem;
   }
 }
